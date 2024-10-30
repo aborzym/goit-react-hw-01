@@ -1,9 +1,8 @@
 import css from "./TransactionHistory.module.css";
-import items from "../transactions.json";
 
 const capitalizeFirstLetter = (string) =>
   string.charAt(0).toUpperCase() + string.slice(1);
-const TransactionHistory = () => {
+const TransactionHistory = ({ items }) => {
   return (
     <div className={css.container}>
       <table className={css.table}>

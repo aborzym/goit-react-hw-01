@@ -1,6 +1,8 @@
 import "./App.css";
 import userData from "../userData.json";
 import transactions from "../transactions.json";
+import friends from "../friends.json";
+import items from "../transactions.json";
 
 import Profile from "./Profile";
 import Friendlist from "./FriendList";
@@ -17,8 +19,8 @@ function App() {
         avatar={avatar}
         stats={stats}
       />
-      <Friendlist />
-      <TransactionHistory />
+      <Friendlist friends={friends} />
+      <TransactionHistory items={items} />
     </>
   );
 }
