@@ -4,6 +4,7 @@ import transactions from "../transactions.json";
 
 import Profile from "./Profile";
 import Friendlist from "./FriendList";
+import TransactionHistory from "./TransactionHistory";
 const { username, tag, location, avatar, stats } = userData;
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         stats={stats}
       />
       <Friendlist />
+      <TransactionHistory />
     </>
   );
 }

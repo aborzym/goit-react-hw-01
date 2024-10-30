@@ -1,0 +1,42 @@
+.table {
+  margin: 10px auto;
+  width: 600px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 2px solid black;
+  height: 30px;
+  width: calc(100% / 3);
+}
+
+th {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+thead tr {
+  color: white;
+  background-color: var(--v-dark-grey);
+}
+
+tbody tr:nth-child(odd) {
+  background-color: var(--light-grey);
+}
+
+tbody tr:nth-child(even) {
+  background-color: var(--grey);
+}
+
+.tableBody {
+  font-size: 14px;
+  font-weight: 200;
+}
+.typeColumn {
+  padding-left: 60px;
+}
+
+.remainingColumns {
+  text-align: center;
+}
