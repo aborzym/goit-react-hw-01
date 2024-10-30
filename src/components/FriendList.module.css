@@ -1,0 +1,14 @@
+.friendList {
+  margin: 0 auto;
+  padding-block: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 5px;
+  width: 400px;
+  list-style-type: none;
+}
+
+.item {
+  flex: 1;
+}
