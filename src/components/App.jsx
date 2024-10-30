@@ -7,7 +7,6 @@ import Friendlist from "./FriendList";
 const { username, tag, location, avatar, stats } = userData;
 
 function App() {
-  console.log(friends.length);
   return (
     <>
       <Profile
